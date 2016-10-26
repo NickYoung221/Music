@@ -36,7 +36,7 @@ public class MainActivity extends ListActivity implements AdapterView.OnItemClic
         getData();
         //设置item点击事件
         lv.setOnItemClickListener(this);
-        Log.i("MainActivity", "onCreate: 22");
+        Log.i("MainActivity", "onCreate: 222");
     }
 
     //读取外部设备的多媒体资源
