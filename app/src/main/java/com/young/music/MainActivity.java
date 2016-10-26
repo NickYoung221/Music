@@ -76,8 +76,6 @@ public class MainActivity extends ListActivity implements AdapterView.OnItemClic
         myApplication= (MyApplication) getApplication();
         //list保存在application中
         myApplication.setMusicInfoList(lists);
-        Log.i("MainActivity", "getData: 12");
-        Log.i("MainActivity", "getData: 21");
     }
 
     @Override
